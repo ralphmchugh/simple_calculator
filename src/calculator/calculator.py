@@ -1,6 +1,25 @@
 """This module contains the calculator functions for the formulas square, tri, lazy caterer, and magic squares"""
 
 
+
+def powerOfTwo(n):
+    """Calculates the power of two"""
+    return 2**n
+
+
+def absoluteValue(n):
+    """Calculates the absolute value of a number"""
+    if n < 0:
+        return -n
+    else:
+        return n
+
+
+def hypotenuseOfRightTriangle(a, b):
+    """Calculates the hypotenuse of a right triangle"""
+    return (a**2 + b**2)**0.5
+
+
 def squareNums(n):
     """Calculates the square"""
     return n**2
